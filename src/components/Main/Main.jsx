@@ -3,7 +3,7 @@ import React from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 import CloseIcon from '@mui/icons-material/Close'
 import CircleOutlinedIcon from '@mui/icons-material/CircleOutlined'
-import { boxClick, handleRestartGame, handleWinResult, restart } from '../service/Game'
+import { boxClick, handleWinResult, restart } from '../service/Game'
 import ReplayIcon from '@mui/icons-material/Replay'
 
 const Main = () => {
